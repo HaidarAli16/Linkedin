@@ -1,0 +1,49 @@
+{
+  "skill_name": "haidar-linkedin-posts",
+  "evals": [
+    {
+      "id": "format-selection-required",
+      "prompt": "Create one LinkedIn post explaining a senior product-design insight. Use the supplied portrait.",
+      "expected_output": "A compact clarification asking the user to choose portrait, one of the square formats, or landscape; no image generation yet.",
+      "assertions": [
+        "The response asks for post type and format.",
+        "The response does not generate an image before format selection."
+      ]
+    },
+    {
+      "id": "single-landscape-explicit",
+      "prompt": "Create a single landscape LinkedIn visual for a B2B product launch using the approved launch copy.",
+      "expected_output": "One landscape LinkedIn visual with a passing 1200x627 delivery report.",
+      "assertions": [
+        "The image dimensions are exactly 1200x627.",
+        "The file is 5 MB or smaller.",
+        "The footer contains the exact name Haidar Ali and the canonical portrait.",
+        "The final response includes a passing delivery report."
+      ]
+    },
+    {
+      "id": "carousel-consistency",
+      "prompt": "Create a five-slide LinkedIn document carousel from approved slide copy in portrait format.",
+      "expected_output": "Five visually coherent portrait slides and one passing batch delivery report.",
+      "assertions": [
+        "The output contains exactly five delivered images.",
+        "Every image dimensions are exactly 1080x1350.",
+        "Every file is 5 MB or smaller.",
+        "Every slide contains the Haidar Ali footer with the canonical portrait.",
+        "The final response includes a passing batch delivery report."
+      ]
+    },
+    {
+      "id": "reference-is-vocabulary-not-template",
+      "prompt": "Make a single LinkedIn image post about reducing design handoff mistakes. I uploaded a popular blue productivity post as a reference. Use Square1080.",
+      "expected_output": "An original Square1080 concept driven by design handoff, with a passing delivery report and no copied reference literals.",
+      "assertions": [
+        "The reference is treated as vocabulary, not a template.",
+        "The response records allowed lessons and forbidden literals from the reference.",
+        "The new visual metaphor relates to design handoff rather than the reference's subject.",
+        "A copy manifest is visually checked before finalization.",
+        "The delivery report confirms 1080x1080 and a file at or below 5 MB."
+      ]
+    }
+  ]
+}

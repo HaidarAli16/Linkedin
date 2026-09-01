@@ -1,0 +1,15 @@
+{
+  "post_type": "single",
+  "format": "Square1080",
+  "slides": [
+    {
+      "file": "test.png",
+      "copy": ["QA TEST", "@haidarali.hq"]
+    }
+  ],
+  "copy_qa": {
+    "status": "pass",
+    "reviewer": "test",
+    "method": "Fixture for finalizer validation."
+  }
+}

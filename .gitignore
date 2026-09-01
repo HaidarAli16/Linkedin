@@ -1,0 +1,6 @@
+# Local validation outputs; only the fixture manifest is versioned.
+evals/runtime-*/
+
+# Generated campaign deliveries are not skill source.
+output/
+outputs/

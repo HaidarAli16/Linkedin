@@ -1,0 +1,19 @@
+# LinkedIn reference catalogue
+
+Use these codes as inspiration selectors. Each is visual vocabulary only: derive a new concept from Haidar's post; never copy its text, handle, logo, layout, page counter, diagrams, or recurring objects.
+
+| Code | File | Useful lessons |
+| --- | --- | --- |
+| L01 | `L01-cold-calling-cheat-sheet.png` | Dense but grouped cheat-sheet hierarchy; numbered route through a practical workflow. |
+| L02 | `L02-expert-beginner-comparison.png` | Clear two-sided contrast; compact comparison rows; high-signal conclusion. |
+| L03 | `L03-client-acquisition-pyramid.png` | One central hierarchy metaphor; top-versus-foundation contrast; quick scanning. |
+| L04 | `L04-linkedin-carousel-guide.png` | Modular explainer zones; cover-to-content sequencing; checklist logic. |
+| L05 | `L05-niche-positioning-framework.png` | Structured multi-step framework; section labels; layered research-to-action story. |
+| L06 | `L06-ethical-ux-comparison.png` | Do-versus-don't teaching contrast; paired examples; semantic colour coding. |
+| L07 | `L07-ux-psychology-stack.png` | Vertical learning stack; consistent numbered modules; progression through an abstract topic. |
+| L08 | `L08-premium-ui-sources.png` | Curated resource list; repeated card rhythm; concise "best for" context. |
+| L09 | `L09-ux-website-sources.png` | Ranked resource list; visual identity markers; short decision-use guidance. |
+| L10 | `L10-ai-design-roles.png` | Role-card system; clear category-to-skill relationship; future-of-work editorial framing. |
+| L11 | `L11-ux-decision-tree.png` | Decision-flow explainer; strategic/tactical/operational grouping; outcomes as the visual payoff. |
+
+When Haidar gives one or more codes, first record the allowed lesson from each selected code and the forbidden identifying literals before prompting ImageGen.
