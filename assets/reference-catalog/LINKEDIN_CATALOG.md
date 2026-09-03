@@ -15,5 +15,7 @@ Use these codes as inspiration selectors. Each is visual vocabulary only: derive
 | L09 | `L09-ux-website-sources.png` | Ranked resource list; visual identity markers; short decision-use guidance. |
 | L10 | `L10-ai-design-roles.png` | Role-card system; clear category-to-skill relationship; future-of-work editorial framing. |
 | L11 | `L11-ux-decision-tree.png` | Decision-flow explainer; strategic/tactical/operational grouping; outcomes as the visual payoff. |
+| L12 | `L12-figma-agent-time-saved.png` | Before-and-after time-saved story; task-to-outcome connections; restrained gradient-tech atmosphere. |
+| L13 | `L13-figma-ai-plugins-editorial.jpg` | Editorial headline treatment; curated-tool cards; calm premium layout with a clear saving action. |
 
 When Haidar gives one or more codes, first record the allowed lesson from each selected code and the forbidden identifying literals before prompting ImageGen.
