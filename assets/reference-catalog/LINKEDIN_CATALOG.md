@@ -17,5 +17,7 @@ Use these codes as inspiration selectors. Each is visual vocabulary only: derive
 | L11 | `L11-ux-decision-tree.png` | Decision-flow explainer; strategic/tactical/operational grouping; outcomes as the visual payoff. |
 | L12 | `L12-figma-agent-time-saved.png` | Before-and-after time-saved story; task-to-outcome connections; restrained gradient-tech atmosphere. |
 | L13 | `L13-figma-ai-plugins-editorial.jpg` | Editorial headline treatment; curated-tool cards; calm premium layout with a clear saving action. |
+| L14 | `L14-figma-agent-use-cases.png` | Modular use-case sections; prompt-and-payoff blocks; scan-versus-fix hierarchy for practical AI workflows. |
+| L15 | `L15-ui-ux-designer-roadmap.png` | Three-track career roadmap; connected role categories; repeated skills, tools, topics, and career-path modules. |
 
 When Haidar gives one or more codes, first record the allowed lesson from each selected code and the forbidden identifying literals before prompting ImageGen.
