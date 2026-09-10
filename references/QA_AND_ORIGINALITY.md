@@ -13,11 +13,12 @@ The actual topic must determine the new visual metaphor, proof object, and focal
 
 Inspect each final at 100% and as a sequence. Confirm:
 
-1. Exact copy matches the manifest, including the required `Haidar Ali` footer name, punctuation, capitalization, numbers, and line breaks.
+1. Exact copy matches the manifest, including the required footer bio line, `Repost ↗`, punctuation, capitalization, numbers, and intentional line breaks.
 2. Text is legible, inside safe margins, high contrast, and free of warping.
 3. Required footer portrait is present, recognisable, and the face is sharp, natural, and unobstructed.
 4. Screenshots/evidence are readable and not traced from a reference.
 5. No reference is recognizably copied; each slide has its own composition and evidence.
 6. The selected dimensions and file-size rules passed in `delivery-report.json`.
+7. The design uses a restrained palette, proportionate typography, natural text grouping, and a compact footer; it contains no neon/glow/gradient "AI slop" treatment, oversized headline, or fake platform UI.
 
 If any check fails, regenerate the affected image and re-run the entire delivery batch with a new empty output folder.

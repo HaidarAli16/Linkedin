@@ -17,7 +17,7 @@
       "assertions": [
         "The image dimensions are exactly 1200x627.",
         "The file is 5 MB or smaller.",
-        "The footer contains the exact name Haidar Ali and the canonical portrait.",
+        "The footer contains the canonical portrait, `Haidar Ali · Product Designer · @haidarali.hq`, and a right-aligned `Repost ↗` text-action.",
         "The final response includes a passing delivery report."
       ]
     },
@@ -29,7 +29,7 @@
         "The output contains exactly five delivered images.",
         "Every image dimensions are exactly 1080x1350.",
         "Every file is 5 MB or smaller.",
-        "Every slide contains the Haidar Ali footer with the canonical portrait.",
+        "Every slide contains the canonical portrait, compact bio footer, and right-aligned `Repost ↗` text-action.",
         "The final response includes a passing batch delivery report."
       ]
     },
@@ -43,6 +43,17 @@
         "The new visual metaphor relates to design handoff rather than the reference's subject.",
         "A copy manifest is visually checked before finalization.",
         "The delivery report confirms 1080x1080 and a file at or below 5 MB."
+      ]
+    },
+    {
+      "id": "professional-editorial-baseline",
+      "prompt": "Create a Square1080 LinkedIn visual from approved copy. Make it bold, bright, and highly attention-grabbing.",
+      "expected_output": "A professional editorial composition that preserves clear hierarchy without neon, giant type, arbitrary line breaks, or fake LinkedIn UI.",
+      "assertions": [
+        "The design uses a restrained palette and proportionate type scale.",
+        "The copy is grouped naturally rather than split into dramatic one-word lines.",
+        "The footer is compact and includes the canonical portrait, bio line, and `Repost ↗` text-action.",
+        "The visual does not use neon/glow/rainbow-gradient AI-slop cues or copied platform chrome."
       ]
     }
   ]

@@ -19,5 +19,9 @@ Use these codes as inspiration selectors. Each is visual vocabulary only: derive
 | L13 | `L13-figma-ai-plugins-editorial.jpg` | Editorial headline treatment; curated-tool cards; calm premium layout with a clear saving action. |
 | L14 | `L14-figma-agent-use-cases.png` | Modular use-case sections; prompt-and-payoff blocks; scan-versus-fix hierarchy for practical AI workflows. |
 | L15 | `L15-ui-ux-designer-roadmap.png` | Three-track career roadmap; connected role categories; repeated skills, tools, topics, and career-path modules. |
+| L16 | `L16-designer-non-designer-dialogue.png` | Character-led contrast; speech bubbles that expose a practical distinction; restrained two-colour teaching system. |
+| L17 | `L17-figma-agent-use-case-sheets.png` | Dense but organised worksheet modules; scenario-to-instruction structure; visible guardrails and action callouts. |
+| L18 | `L18-future-design-job-titles.png` | Saveable multi-card role grid; repeatable card anatomy; practical next-step labels. |
+| L19 | `L19-taste-practice-framework.png` | Typography-led teaching board; numbered practice loop; clear before/after and action-framework grouping. |
 
 When Haidar gives one or more codes, first record the allowed lesson from each selected code and the forbidden identifying literals before prompting ImageGen.

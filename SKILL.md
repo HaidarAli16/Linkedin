@@ -24,7 +24,7 @@ For a carousel, write/confirm complete slide-by-slide copy before generating. Fo
 
 ## Required Haidar Ali footer
 
-Every delivered LinkedIn visual—single image or every carousel slide—must include the supplied small Haidar portrait and the exact name **Haidar Ali** in a discreet, consistent footer. This is a fixed brand element, not something inherited from a reference. Read [BRAND_FOOTER.md](references/BRAND_FOOTER.md) before planning the layout. Include `Haidar Ali` in every slide's copy manifest and visually verify the name plus portrait before finalization.
+Every delivered LinkedIn visual—single image or every carousel slide—must include the supplied small Haidar portrait and a discreet, consistent footer. The default footer content is: `Haidar Ali · Product Designer · @haidarali.hq`, plus a small right-aligned `Repost ↗` text-action. This is a fixed brand element, not something inherited from a reference. Read [BRAND_FOOTER.md](references/BRAND_FOOTER.md) before planning the layout. Include every footer element in each slide's copy manifest and visually verify them before finalization.
 
 ## Text integrity gate
 
@@ -37,6 +37,14 @@ Read `references/FORMAT_AND_DELIVERY.md` whenever choosing a format or packaging
 ## Visual system
 
 Use ImageGen for the entire final composition and all visible text. Never use HTML, SVG, CSS, Canvas, Pillow, or another code renderer to place, replace, or repair visible text.
+
+### Professional design baseline
+
+Design for a credible, editorial LinkedIn feed—not a loud AI-generated poster. Use a restrained neutral palette with one controlled accent when it improves hierarchy. Avoid neon, electric gradients, rainbow effects, over-saturated blue/purple/pink, glossy 3D surfaces, glowing text, decorative particles, and other generic "AI slop" signals.
+
+Use a balanced type scale. Headlines must be prominent but proportionate to the canvas and must not overwhelm the composition; body copy must be comfortably readable at mobile size. Do not create drama by setting one or two words per line, stacking headline fragments vertically, or inserting arbitrary line breaks. Set sentences and phrases in natural, readable groups. Use whitespace, alignment, and information hierarchy—not giant type or excessive line breaks—to create emphasis.
+
+Build each slide as a composed editorial page: a clear grid, generous but purposeful margins, a focused evidence object or diagram where useful, and no more visual elements than the message needs. Prefer quiet confidence over visual theatrics.
 
 ## ImageGen workflow routing
 
