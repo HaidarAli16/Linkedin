@@ -1,6 +1,6 @@
 # LinkedIn format and delivery
 
-Ask Haidar to choose a format from the post's job; do not assume a default.
+In job mode, use the format written in the design queue file. In manual mode, ask Haidar; don't assume.
 
 - **Portrait** — `1080×1350`, 4:5. Recommend it for mobile-first feed presence.
 - **Square 1080** — `1080×1080`, 1:1. Use when symmetry or a compact graphic matters.

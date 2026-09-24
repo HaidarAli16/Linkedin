@@ -17,7 +17,7 @@
       "assertions": [
         "The image dimensions are exactly 1200x627.",
         "The file is 5 MB or smaller.",
-        "The footer contains the canonical portrait, `Haidar Ali · Product Designer · @haidarali.hq`, and a right-aligned `Repost ↗` text-action.",
+        "The footer contains the canonical portrait, `Haidar Ali`, `AI-First Product Designer / Builder`, and a right-aligned `Repost ↗` text-action.",
         "The final response includes a passing delivery report."
       ]
     },

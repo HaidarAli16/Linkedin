@@ -1,11 +1,9 @@
 # Haidar Ali footer
 
-Every delivered LinkedIn visual made through this skill has a discreet, consistent footer with:
+Every LinkedIn image (single, and every carousel slide) has one compact footer:
 
-1. the supplied canonical portrait: `assets/identity/haidar-footer-portrait.jpg`; and
-2. the exact visible bio line: `Haidar Ali · Product Designer · @haidarali.hq`; and
-3. a small, right-aligned `Repost ↗` text-action.
+- **Bottom left:** the supplied portrait `assets/identity/haidar-footer-portrait.jpg` (small, circular crop, real face), then `Haidar Ali` with `AI-First Product Designer / Builder` beside or below it.
+- **Bottom right:** a small `Repost ↗` text cue. It's not a button or LinkedIn chrome.
+- **No handle.** On LinkedIn the profile name is just Haidar Ali.
 
-Use the portrait as a small circular or softly rounded crop, preserving Haidar's real face. Keep the footer compact: its height should be visually subordinate to the content and never become a second headline. Place the portrait and bio line together at bottom left; place `Repost ↗` at bottom right. Use subtle dividers or spacing only when needed. The action is a branded text cue, not copied LinkedIn chrome, a fake button, or a platform badge. Keep the whole footer in a calm bottom safe zone with sufficient contrast and away from substantive visual content.
-
-For every slide or single image, include the exact bio line and `Repost ↗` in the copy manifest and verify the portrait plus all footer text during visual QA. If the format is dense, simplify the body before making the footer illegible or omitting it.
+Keep it subordinate to the content, inside the bottom safe zone and readable. If space is tight, simplify the body; never drop or shrink the footer until it's unreadable. The copy manifest must list `Haidar Ali`, `AI-First Product Designer / Builder` and `Repost ↗` for every image.

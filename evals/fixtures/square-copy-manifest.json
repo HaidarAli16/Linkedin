@@ -4,7 +4,12 @@
   "slides": [
     {
       "file": "test.png",
-      "copy": ["QA TEST", "@haidarali.hq"]
+      "copy": [
+        "QA TEST",
+        "Haidar Ali",
+        "AI-First Product Designer / Builder",
+        "Repost ↗"
+      ]
     }
   ],
   "copy_qa": {

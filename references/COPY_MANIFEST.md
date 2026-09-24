@@ -1,6 +1,6 @@
 # Copy manifest contract
 
-Create `copy-manifest.json` alongside the raw ImageGen images. It records the exact visible copy the user approved and binds the batch to its selected LinkedIn format.
+`copy-manifest.json` holds the exact final text for every image. It's the only text source, and it's never paraphrased or extended. In job mode Claude writes it; ChatGPT only reads it.
 
 ```json
 {
@@ -8,23 +8,22 @@ Create `copy-manifest.json` alongside the raw ImageGen images. It records the ex
   "format": "Portrait",
   "slides": [
     {
-      "file": "01-cover.png",
-      "copy": ["THE HEADLINE", "A concise supporting line", "@haidarali.hq"]
+      "file": "slide_01_4x5.png",
+      "copy": ["The headline", "A concise supporting line", "Haidar Ali", "AI-First Product Designer / Builder", "Repost ↗"]
     },
     {
-      "file": "02-insight.png",
-      "copy": ["One useful point", "A short explanation", "@haidarali.hq"]
+      "file": "slide_02_4x5.png",
+      "copy": ["One useful point", "A short explanation", "Haidar Ali", "AI-First Product Designer / Builder", "Repost ↗"]
     }
   ],
   "copy_qa": {
-    "status": "pass",
-    "reviewer": "agent",
-    "method": "Compared every full-size raw slide visually against this manifest before finalization."
+    "status": "pending",
+    "reviewer": "",
+    "method": ""
   }
 }
 ```
 
-- `slides[].file` must exactly match the final output name. A raw `01-cover.jpg` becomes `01-cover.png`.
-- `slides[].copy` includes every intentional visible text element, including the mandatory `Haidar Ali` footer name, CTA, labels, and punctuation.
-- Write the manifest before generation, but set `copy_qa.status` to `pass` only after reviewing every raw slide at full size.
-- The finalizer rejects missing or extra slides, a format mismatch, duplicate file names, and an unreviewed manifest.
+- **File names:** `slide_NN_4x5.png` for carousels, `linkedin_4x5.png` for single images (use `_1x1` or `_landscape` for other formats). A raw `.jpg` becomes `.png`.
+- `copy` lists every visible text element, including the footer.
+- Set `copy_qa.status` to `pass` only after comparing every full-size image against this manifest. The finalizer rejects `pending`, missing or extra files, and a format mismatch.
