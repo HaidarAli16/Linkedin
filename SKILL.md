@@ -20,7 +20,7 @@ When given a design queue file (`Haidar Ali/05_Design_Queue/*.md`):
 3. Generate → check every image at full size against the manifest (every word, the footer, the face) → regenerate any failure.
 4. Finalize each post into its QA inbox folder listed in the queue file (it must be empty):
    `scripts/finalize_linkedin_images.ps1 -InputDirectory <raw> -OutputDirectory <qa_inbox/HA-###> -Format <Format> -ManifestPath <manifest>`
-5. Report per post: `HA-### done` or `HA-### failed: <reason>`. (Claude marks the matching row in `Haidar Ali/TRACKER.md` — nothing to do here.)
+5. Report per post: `HA-### done` or `HA-### failed: <reason>`.
 
 ## Manual mode (no queue file)
 Ask only what's missing: single or carousel, format (Portrait 1080×1350 recommended, Square1080, Square1200, Landscape 1200×627), final text, style code. Then follow the same hard rules.
