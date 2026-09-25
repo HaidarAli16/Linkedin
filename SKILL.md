@@ -23,7 +23,7 @@ When given a design queue file (`Haidar Ali/05_Design_Queue/*.md`):
 5. Report per post: `HA-### done` or `HA-### failed: <reason>`.
 
 ## Manual mode (no queue file)
-Ask only what's missing: single or carousel, format (Portrait 1080×1350 recommended, Square1080, Square1200, Landscape 1200×627), final text, style code. Then follow the same hard rules.
+Ask only what's missing: single or carousel, format (Portrait 1080×1350 recommended, Square1080, Square1200, Landscape 1200×627), final text, style code. Determine the destination before generating. For a Career OS post, default the working root to `Haidar Ali/04_Posts/HA-###/`, keep drafts in `raw/`, and finalize into a new empty `delivery/` folder so the finalizer cannot mix files. State the working root to Haidar ("saving these under 04_Posts/HA-###/"); he may redirect it to a queue-specified QA inbox. Then follow the same hard rules.
 
 ## Design baseline
 Credible, editorial and calm. Neutral palette, one accent at most. No neon, glossy 3D, glow or AI-slop effects. A clear grid, proportionate headline and readable body; never tiny type. A carousel is one system: cover, content master, closing slide. Vary composition across slides without cloning.
